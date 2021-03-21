@@ -1,9 +1,9 @@
 import "./style.scss";
 import React, { useState } from "react";
 import { render } from "react-dom";
-
+import MapContainer from "./map.js";
 const App = () => {
-  return <h1>Hello spider!</h1>;
+  return <MapContainer />;
 };
 
 render(<App />, document.getElementById("app"));

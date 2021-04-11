@@ -1,1 +1,54 @@
 @import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Open+Sans:wght@400;600;700&display=swap");
+
+$darkColor: #373740;
+$lightColor: #f2f2f2;
+$mainColor: #f24e29;
+$secondaryColor: #d94a3d;
+$complementaryColor: #2e7b8c;
+
+// Examples of font used
+// font-family: 'Kiwi Maru', serif;
+// font-family: 'Open Sans', sans-serif;
+
+body {
+  background: $lightColor;
+}
+.restaurants {
+  background: $lightColor;
+}
+.restaurant {
+  padding: 24px;
+}
+.restaurant-name {
+  font-family: "Kiwi Maru", serif;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 2px solid $darkColor;
+  color: $darkColor;
+}
+.header {
+  background: $lightColor;
+  font-family: "Kiwi Maru", serif;
+  font-size: 35px;
+  font-weight: bold;
+  border-bottom: 2px solid $darkColor;
+  color: $darkColor;
+}
+.food {
+  display: block;
+  width: fit-content;
+  margin: 5px;
+}
+.location {
+}
+
+.marker-label {
+  font-family: "Kiwi Maru", serif !important;
+  font-weight: bold;
+  background-color: white;
+  padding: 0.5em;
+  position: relative;
+  bottom: 4em;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.4);
+}
